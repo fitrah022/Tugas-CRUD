@@ -8,7 +8,7 @@
 <body>
 
     <?php
-    $koneksi = mysqli_connect("localhost", "root", "", "crud_1303194033") or die(mysqli_error());
+    $koneksi = mysqli_connect("localhost", "root", "", "crud_db") or die(mysqli_error());
 
     function tambah($koneksi)
     {
